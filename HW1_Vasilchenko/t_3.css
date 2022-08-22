@@ -1,0 +1,73 @@
+#main_layout_table{
+    width: 100%;                        
+}
+
+#left_column{
+    width: 60%;
+}
+
+#left_column img
+{
+    width: 100%;
+}
+
+#right_column{
+    width: 40%;            
+}
+
+#right_column table
+{
+    width: 100%;            
+}
+
+#calendar td{
+    text-align: center;
+    vertical-align: middle;
+    width: 14%;            
+    font-family: Arial, Helvetica, sans-serif;
+                            
+}
+
+#right_column thead, tfoot
+{
+    background-color: #348ce4;
+    font-size: 12;
+
+}
+
+td {
+    vertical-align: top;
+}
+
+.date
+{
+    color: darkslateblue;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.date-month
+{
+    float: left;
+}
+
+.date-year
+{
+    float: right;
+}
+
+.date-weekend
+{
+    color: red;
+}
+
+.date-opacity-red
+{    
+    color: rgba(255, 0, 0, 0.5);
+}
+
+.date-opacity-black
+{    
+    color: rgba(0, 0, 0, 0.5);
+}

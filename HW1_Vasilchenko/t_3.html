@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Табличная вёрстка</title>
+    <link href="t_3.css" rel="stylesheet"/>
+    
+
+</head>
+<body>
+    <!-- Main site layout -->
+
+    <table border="1" id="main_layout_table">
+        <tr>
+            <td id="left_column" rowspan="4">
+                <img src="images/banner.gif" />
+            </td>
+            <td id="right_column">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="date date-month">Август / August</div>
+                            <div class="date date-year">2022</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Calendar table -->                            
+                            <table id="calendar">
+                                <thead>
+                                    <tr>
+                                        <td>ПН</td>
+                                        <td>ВТ</td>
+                                        <td>СР</td>
+                                        <td>ЧТ</td>
+                                        <td>ПТ</td>
+                                        <td class="date-weekend">СБ</td>                            
+                                        <td class="date-weekend">ВС</td>                            
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td class="date-weekend">6</td>
+                                        <td class="date-weekend">7</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>9</td>
+                                        <td>10</td>
+                                        <td>11</td>
+                                        <td>12</td>
+                                        <td class="date-weekend">13</td>
+                                        <td class="date-weekend">14</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>16</td>
+                                        <td>17</td>
+                                        <td>18</td>
+                                        <td>19</td>
+                                        <td class="date-weekend">20</td>
+                                        <td class="date-weekend">21</td>
+                                    </tr>
+                                    <tr>
+                                        <td>22</td>
+                                        <td>23</td>
+                                        <td>24</td>
+                                        <td>25</td>
+                                        <td>26</td>
+                                        <td class="date-weekend">27</td>
+                                        <td class="date-weekend">28</td>
+                                    </tr>
+                                    <tr>
+                                        <td>29</td>
+                                        <td>30</td>
+                                        <td>31</td>
+                                        <td class="date-opacity-black">1</td>
+                                        <td class="date-opacity-black">2</td>
+                                        <td class="date-opacity-red">3</td>
+                                        <td class="date-opacity-red">4</td>
+                                    </tr>                                                                                                
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td>MO</td>
+                                        <td>TU</td>
+                                        <td>WE</td>
+                                        <td>TH</td>
+                                        <td>FR</td>
+                                        <td class="date-weekend">SA</td>                            
+                                        <td class="date-weekend">SU</td>                            
+                                    </tr>
+                                </tfoot>                    
+                            </table>
+                            <!-- Calendar table -->                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Старт каталога
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div id="img-opt" style="float: right;">
+                                <img src="images/opt.png" />
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <!-- End Of Right Column -->
+        </tr>       
+    </table>
+
+</body>
+</html>
