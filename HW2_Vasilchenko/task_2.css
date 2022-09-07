@@ -1,0 +1,77 @@
+#box_container{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 700px;
+    border-color: black;
+    border-style: groove;
+}
+
+#box_card{
+    display: flex;
+    flex-direction: row;
+    height:257px;
+    width: 700px;
+}
+
+#box_picture{
+    height: 257px;
+    width: 207px;
+    align-items: center;
+}
+
+#box_info{
+    width: 493px;
+}
+#box_links td
+{
+    width:175px;
+    padding-left: 67px;
+}
+
+#box_links{
+    width: 700px;
+    height: 43px;
+}
+
+.name_card
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 70px; 
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.img_prop
+{
+    width: 100px;
+    height: 54px;
+    margin-left: 150px;
+}
+
+.title_card
+{
+    font-size: 20px;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    margin-left: 130px;
+}
+
+.branch_card
+{
+    font-size: 20px;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    margin-left: 140px;
+}
+
+.icon
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 150px;
+}
+
+.social_logo
+{
+    width: 40px;
+    height: 40px;
+}

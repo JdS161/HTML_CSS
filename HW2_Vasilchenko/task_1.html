@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW2_Task1</title>
+    <link href="task_1.css" rel="stylesheet"/>
+
+</head>
+<body>
+    <div id="box_container">
+        <div id="upper_picture_box">
+            <img class="responsive_img" src="images/task1/library2.jpeg">   
+        </div>
+
+        <div id="box_middle_container">
+            <div id="middle_left_list_box">
+                <p>
+                    Разделы библиотеки:
+                </p>
+                <ol>
+                    <li> Фантастика </li>
+                        <ul>
+                            <li>Научная</li>
+                            <li>Фэнтези</li>
+                        </ul>
+                    
+                    <li>Детская книга</li>
+                        <ul>
+                            <li>Для дошкольников</li>
+                            <li>Для школьников младших классов</li>
+                        </ul>
+                </ol>
+            </div>
+            <div id="middle_right_list_box">
+                <p>
+                    Авторы:
+                </p>
+                <ol>
+                    <li>Зарубежные</li>
+                        <ul>
+                            <li>Роберт Шэкли</li>
+                            <li>Эндрю Нортон</li>
+                        </ul>
+                   
+                    <li>Отечественные</li>
+                        <ul>
+                            <li>Тарас Шевченко</li>
+                            <li>Иван Франко</li>
+                        </ul>
+                </ol>
+            </div>
+        </div>
+
+        <div id="bottom_registration_box">
+            <form method="post"> 
+
+                <p align="center">
+                    <b>Зарегистрироваться в библиотеке:</b> 
+                </p>
+                <table align="center">
+                    <tr>
+                        <td class="left_col">
+                            <label for="user_name"> Имя и фамилия читателя</label>
+                        </td>
+                        <td class="right_col">
+                            <input type="text" name="user_name" id="user_name" 
+                            placeholder="Укажите свои имя и фамилию">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="left_col">
+                            <label for="user_birth_date"> Дата рождения</label>
+                        </td>
+                        <td class="right_col">
+                            <input type="date" name="user_birth_date" id="user_birth_date" 
+                            placeholder="дд.мм.гггг">
+                        </td>
+                    </tr>    
+                    
+                    <tr>
+                        <td class="left_col">
+                            <label>Тип читательского билета</label>
+                        </td>
+                        <td align="left" style="padding-left: 15px;">
+                            <label for="ticket_yearly">Годовой</label>
+                            <input type="radio" name="ticket_type"
+                        id="ticket_yearly" value="ticket_yearly" style="width:107px;">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="left_col"></td>
+                    <td align="left" style="padding-left: 15px;">
+                        <label for="ticket_permanent">Постоянный</label>
+                        <input type="radio" name="ticket_type"
+                        id="ticket_permanent" value="ticket_permanent" style="width: 50px;">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="left_col"></td>
+                    <td style="padding-left: 15px;" align="left">
+                        <label for="ticket_onetime">Разовый</label>
+                        <input type="radio" name="ticket_type"
+                        id="ticket_onetime" value="ticket_onetime" style=" width:107px;">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="left_col">
+                        <label for="user_email">Ваш Email:</label>
+                    </td>
+                    <td class="right_col">
+                        <input type="email" name="user_email" id="user_email" 
+                        placeholder="Email">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="left_col">
+                        <label for="user_address">Ваш адрес:</label>
+                    </td>
+                    <td class="right_col">
+                        <input type="text" name="user_address" id="user_address" 
+                        placeholder="Укажите свои адрес">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="left_col">
+                        <label for="user_city">Город:</label>
+                    </td>
+                    <td class="right_col">                        
+                        <select name="user_city" id="user_city">
+                            <optgroup label="South cities">
+                                <option value="1" selected="selected"> Novocherkassk</option>
+                                <option value="2"> Rostov-on-Don</option>
+                                <option value="3"> Krasnodar</option>
+                            </optgroup>
+                            <optgroup label="Center cities">
+                                <option value="4"> Moscow</option>
+                            </optgroup>
+                            <optgroup label="Volga cities">
+                                <option value="5"> Saratov</option>
+                            </optgroup>
+                        </select>                       
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <td class="right_col" >
+                        <input type="submit" value="Зарегистрироваться" 
+                        style="background-color:red; text-shadow: 0px 0px 0px beige; 
+                                -webkit-text-fill-color: transparent;">
+                    </td>
+                </tr>
+                
+
+
+
+            </table>
+        </form>
+            
+        </div>
+    </div>
+    
+    
+
+
+</body>
+</html>

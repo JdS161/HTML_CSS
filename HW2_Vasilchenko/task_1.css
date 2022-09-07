@@ -1,0 +1,95 @@
+#box_container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#box_middle_container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#upper_picture_box
+{
+    display: flex;
+    margin: 4px;
+}
+
+.responsive_img
+{
+    max-height: 80%;
+    max-width: 200%;
+    height: 80%;
+    width: 100%;
+    object-fit: fill;
+}
+
+#middle_left_list_box
+{
+    background-color: darkgray;
+    width: 50%;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+
+#middle_right_list_box
+{
+    background-color:grey;
+    width: 50%;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+#bottom_registration_box
+{
+    background-color: chocolate;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#bottom_registration_box input 
+{
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    width: 300px;
+    border-radius: 10px;
+    border-color: #b52626;    
+}
+
+#bottom_registration_box select 
+{
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    width: 300px;
+    border-radius: 10px;
+    border-color: #b52626;
+}
+
+#bottom_registration_box table td
+{
+    align-items: center;
+}
+
+.left_col
+{
+    width: 40%;
+    text-align: right;
+}
+
+.right_col
+{
+    width: 40%;
+    text-align: left;
+}
+
+.radio_label
+{
+    width: 100;
+    align-items: left;
+}
